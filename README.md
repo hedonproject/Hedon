@@ -17,4 +17,4 @@ Hedon Coin Specification
 * Masternode collateral: 200 000 HDN
 * Instamine Protection: 300 Blocks
 
-More information about Hedon you can find at https://hedon.co/
+More information about Hedon you can find at https://www.hedon.io/

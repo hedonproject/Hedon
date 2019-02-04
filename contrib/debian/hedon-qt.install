@@ -1,0 +1,6 @@
+usr/local/bin/hedon-qt usr/bin
+share/pixmaps/hedon32.xpm usr/share/pixmaps
+share/pixmaps/hedon16.xpm usr/share/pixmaps
+share/pixmaps/hedon128.png usr/share/pixmaps
+debian/hedon-qt.desktop usr/share/applications
+debian/hedon-qt.protocol usr/share/kde4/services/

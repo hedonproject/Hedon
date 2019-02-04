@@ -1,0 +1,22 @@
+[Unit]
+Description=Hedon's distributed currency daemon
+After=network.target
+
+[Service]
+User=hedoncore
+Group=hedoncore
+
+Type=forking
+PIDFile=/var/lib/hedond/hedond.pid
+ExecStart=/usr/bin/hedond -daemon -pid=/var/lib/hedond/hedond.pid \
+-conf=/etc/hedoncore/hedon.conf -datadir=/var/lib/hedond -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

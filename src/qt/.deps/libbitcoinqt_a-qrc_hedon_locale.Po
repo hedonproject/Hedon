@@ -1,0 +1,1 @@
+qt/libbitcoinqt_a-qrc_hedon_locale.o: qt/qrc_hedon_locale.cpp
